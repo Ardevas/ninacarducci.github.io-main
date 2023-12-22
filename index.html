@@ -7,8 +7,16 @@
       content="Nina Carducci est une photographe située à Bordeaux. Portraits, concerts, photos de mariages et d'entreprise."
     />
     <title>Nina Carducci - Photographe</title>
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
+    <script>
+      // Chargement asynchrone de bootstrap.css après le chargement initial
+      window.onload = function () {
+        var bootstrapLink = document.createElement("link");
+        bootstrapLink.rel = "stylesheet";
+        bootstrapLink.href = "./assets/bootstrap/bootstrap.css";
+        document.head.appendChild(bootstrapLink);
+      };
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
