@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "apache-server-configs": "^6.0.0"
+  }
+}
