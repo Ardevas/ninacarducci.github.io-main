@@ -161,7 +161,7 @@ a {
 .nav ul {
 	display: flex;
 	list-style-type: none;
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 0
 }
 
@@ -454,13 +454,13 @@ textarea {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	width: 60%
 }
 
 #about-me p {
 	width: 80%;
-	font-size: 14px
+	font-size: 16px
 }
 
 .title {
